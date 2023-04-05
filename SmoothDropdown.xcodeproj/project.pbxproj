@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C470C5CA29DDE84D003E2920 /* SmoothDropdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470C5C929DDE84D003E2920 /* SmoothDropdownApp.swift */; };
+		C470C5CC29DDE84D003E2920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470C5CB29DDE84D003E2920 /* ContentView.swift */; };
+		C470C5CE29DDE84F003E2920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C470C5CD29DDE84F003E2920 /* Assets.xcassets */; };
+		C470C5D129DDE84F003E2920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C470C5D029DDE84F003E2920 /* Preview Assets.xcassets */; };
+		C470C5DB29DDE84F003E2920 /* SmoothDropdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470C5DA29DDE84F003E2920 /* SmoothDropdownTests.swift */; };
+		C470C5E529DDE84F003E2920 /* SmoothDropdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470C5E429DDE84F003E2920 /* SmoothDropdownUITests.swift */; };
+		C470C5E729DDE84F003E2920 /* SmoothDropdownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470C5E629DDE84F003E2920 /* SmoothDropdownUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C470C5D729DDE84F003E2920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C470C5BE29DDE84D003E2920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C470C5C529DDE84D003E2920;
+			remoteInfo = SmoothDropdown;
+		};
+		C470C5E129DDE84F003E2920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C470C5BE29DDE84D003E2920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C470C5C529DDE84D003E2920;
+			remoteInfo = SmoothDropdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C470C5C629DDE84D003E2920 /* SmoothDropdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothDropdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C470C5C929DDE84D003E2920 /* SmoothDropdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothDropdownApp.swift; sourceTree = "<group>"; };
+		C470C5CB29DDE84D003E2920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C470C5CD29DDE84F003E2920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C470C5D029DDE84F003E2920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C470C5D629DDE84F003E2920 /* SmoothDropdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothDropdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C470C5DA29DDE84F003E2920 /* SmoothDropdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothDropdownTests.swift; sourceTree = "<group>"; };
+		C470C5E029DDE84F003E2920 /* SmoothDropdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothDropdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C470C5E429DDE84F003E2920 /* SmoothDropdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothDropdownUITests.swift; sourceTree = "<group>"; };
+		C470C5E629DDE84F003E2920 /* SmoothDropdownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothDropdownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C470C5C329DDE84D003E2920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470C5D329DDE84F003E2920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470C5DD29DDE84F003E2920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C470C5BD29DDE84D003E2920 = {
+			isa = PBXGroup;
+			children = (
+				C470C5C829DDE84D003E2920 /* SmoothDropdown */,
+				C470C5D929DDE84F003E2920 /* SmoothDropdownTests */,
+				C470C5E329DDE84F003E2920 /* SmoothDropdownUITests */,
+				C470C5C729DDE84D003E2920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C470C5C729DDE84D003E2920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C470C5C629DDE84D003E2920 /* SmoothDropdown.app */,
+				C470C5D629DDE84F003E2920 /* SmoothDropdownTests.xctest */,
+				C470C5E029DDE84F003E2920 /* SmoothDropdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C470C5C829DDE84D003E2920 /* SmoothDropdown */ = {
+			isa = PBXGroup;
+			children = (
+				C470C5C929DDE84D003E2920 /* SmoothDropdownApp.swift */,
+				C470C5CB29DDE84D003E2920 /* ContentView.swift */,
+				C470C5CD29DDE84F003E2920 /* Assets.xcassets */,
+				C470C5CF29DDE84F003E2920 /* Preview Content */,
+			);
+			path = SmoothDropdown;
+			sourceTree = "<group>";
+		};
+		C470C5CF29DDE84F003E2920 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C470C5D029DDE84F003E2920 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C470C5D929DDE84F003E2920 /* SmoothDropdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				C470C5DA29DDE84F003E2920 /* SmoothDropdownTests.swift */,
+			);
+			path = SmoothDropdownTests;
+			sourceTree = "<group>";
+		};
+		C470C5E329DDE84F003E2920 /* SmoothDropdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C470C5E429DDE84F003E2920 /* SmoothDropdownUITests.swift */,
+				C470C5E629DDE84F003E2920 /* SmoothDropdownUITestsLaunchTests.swift */,
+			);
+			path = SmoothDropdownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C470C5C529DDE84D003E2920 /* SmoothDropdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C470C5EA29DDE84F003E2920 /* Build configuration list for PBXNativeTarget "SmoothDropdown" */;
+			buildPhases = (
+				C470C5C229DDE84D003E2920 /* Sources */,
+				C470C5C329DDE84D003E2920 /* Frameworks */,
+				C470C5C429DDE84D003E2920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothDropdown;
+			productName = SmoothDropdown;
+			productReference = C470C5C629DDE84D003E2920 /* SmoothDropdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C470C5D529DDE84F003E2920 /* SmoothDropdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C470C5ED29DDE84F003E2920 /* Build configuration list for PBXNativeTarget "SmoothDropdownTests" */;
+			buildPhases = (
+				C470C5D229DDE84F003E2920 /* Sources */,
+				C470C5D329DDE84F003E2920 /* Frameworks */,
+				C470C5D429DDE84F003E2920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C470C5D829DDE84F003E2920 /* PBXTargetDependency */,
+			);
+			name = SmoothDropdownTests;
+			productName = SmoothDropdownTests;
+			productReference = C470C5D629DDE84F003E2920 /* SmoothDropdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C470C5DF29DDE84F003E2920 /* SmoothDropdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C470C5F029DDE84F003E2920 /* Build configuration list for PBXNativeTarget "SmoothDropdownUITests" */;
+			buildPhases = (
+				C470C5DC29DDE84F003E2920 /* Sources */,
+				C470C5DD29DDE84F003E2920 /* Frameworks */,
+				C470C5DE29DDE84F003E2920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C470C5E229DDE84F003E2920 /* PBXTargetDependency */,
+			);
+			name = SmoothDropdownUITests;
+			productName = SmoothDropdownUITests;
+			productReference = C470C5E029DDE84F003E2920 /* SmoothDropdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C470C5BE29DDE84D003E2920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C470C5C529DDE84D003E2920 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C470C5D529DDE84F003E2920 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C470C5C529DDE84D003E2920;
+					};
+					C470C5DF29DDE84F003E2920 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C470C5C529DDE84D003E2920;
+					};
+				};
+			};
+			buildConfigurationList = C470C5C129DDE84D003E2920 /* Build configuration list for PBXProject "SmoothDropdown" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C470C5BD29DDE84D003E2920;
+			productRefGroup = C470C5C729DDE84D003E2920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C470C5C529DDE84D003E2920 /* SmoothDropdown */,
+				C470C5D529DDE84F003E2920 /* SmoothDropdownTests */,
+				C470C5DF29DDE84F003E2920 /* SmoothDropdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C470C5C429DDE84D003E2920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470C5D129DDE84F003E2920 /* Preview Assets.xcassets in Resources */,
+				C470C5CE29DDE84F003E2920 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470C5D429DDE84F003E2920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470C5DE29DDE84F003E2920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C470C5C229DDE84D003E2920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470C5CC29DDE84D003E2920 /* ContentView.swift in Sources */,
+				C470C5CA29DDE84D003E2920 /* SmoothDropdownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470C5D229DDE84F003E2920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470C5DB29DDE84F003E2920 /* SmoothDropdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470C5DC29DDE84F003E2920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470C5E529DDE84F003E2920 /* SmoothDropdownUITests.swift in Sources */,
+				C470C5E729DDE84F003E2920 /* SmoothDropdownUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C470C5D829DDE84F003E2920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C470C5C529DDE84D003E2920 /* SmoothDropdown */;
+			targetProxy = C470C5D729DDE84F003E2920 /* PBXContainerItemProxy */;
+		};
+		C470C5E229DDE84F003E2920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C470C5C529DDE84D003E2920 /* SmoothDropdown */;
+			targetProxy = C470C5E129DDE84F003E2920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C470C5E829DDE84F003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C470C5E929DDE84F003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C470C5EB29DDE84F003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmoothDropdown/Preview Content\"";
+				DEVELOPMENT_TEAM = 685NK64Q38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raul.SmoothDropdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C470C5EC29DDE84F003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmoothDropdown/Preview Content\"";
+				DEVELOPMENT_TEAM = 685NK64Q38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raul.SmoothDropdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C470C5EE29DDE84F003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 685NK64Q38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raul.SmoothDropdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmoothDropdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmoothDropdown";
+			};
+			name = Debug;
+		};
+		C470C5EF29DDE84F003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 685NK64Q38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raul.SmoothDropdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmoothDropdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmoothDropdown";
+			};
+			name = Release;
+		};
+		C470C5F129DDE84F003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 685NK64Q38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raul.SmoothDropdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmoothDropdown;
+			};
+			name = Debug;
+		};
+		C470C5F229DDE84F003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 685NK64Q38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raul.SmoothDropdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmoothDropdown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C470C5C129DDE84D003E2920 /* Build configuration list for PBXProject "SmoothDropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C470C5E829DDE84F003E2920 /* Debug */,
+				C470C5E929DDE84F003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C470C5EA29DDE84F003E2920 /* Build configuration list for PBXNativeTarget "SmoothDropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C470C5EB29DDE84F003E2920 /* Debug */,
+				C470C5EC29DDE84F003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C470C5ED29DDE84F003E2920 /* Build configuration list for PBXNativeTarget "SmoothDropdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C470C5EE29DDE84F003E2920 /* Debug */,
+				C470C5EF29DDE84F003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C470C5F029DDE84F003E2920 /* Build configuration list for PBXNativeTarget "SmoothDropdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C470C5F129DDE84F003E2920 /* Debug */,
+				C470C5F229DDE84F003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C470C5BE29DDE84D003E2920 /* Project object */;
+}
